@@ -1,0 +1,23 @@
+.questions-container{width: 100%; padding: 10px; text-align: center;font-weight: bold;}
+.questions-container .help span{display: none;}
+.questions-container .ans-panel .right, .questions-container .ans-panel .wrong{display: none;}
+.left-container{width: 50%; float: left;}
+.right-container{width: 49%; float: left;}
+.game-container li{ display: inline-block; width: 150px;height: 150px;border: 1px solid #000;padding: 0; margin: 0;}
+.game-container ul, .card-container ul{ margin: 0;padding: 0;list-style: none; }
+.game-container .card-question.active{ border:1px dashed #C50E0E;}
+.card-container ul li{ width: 150px; height: 150px; display: inline-block;text-align: center;}
+.card-container ul img{ width: 100%;height: 100%; }
+.card-container ul label {
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+  bottom: 0;
+  color: #fff;
+  display: block;
+  font-family: arial;
+  font-size: 14px;
+  left: 0;
+  padding: 5px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
